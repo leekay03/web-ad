@@ -1,0 +1,76 @@
+
+
+@font-face { /* @font-face signals we are about to embed font files */
+    font-family: 'Martel Light';
+    src: url("../fonts/Martel-Light.ttf") format("truetype");
+
+}
+
+.container {
+
+    width: 336px;
+    height: 280px;
+    border: 1px solid pink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background: url(../images/il_fullxfull.5090325880_1czk.avif) 50%;
+    background-size: cover; */
+}
+
+
+.title {
+    font-family: 'Martel Light';
+    font-size: 36px;
+    color: #7b76c8;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    letter-spacing: 0.5px;
+    background: white;
+    border: 2px solid #ff85c0;
+
+}
+
+.toy {
+    width: 100px;
+    position: relative;
+    top: 10%;
+
+}
+
+
+
+.text {
+    font-family: 'Martel Light';
+    letter-spacing: 0.1px;
+    line-height: 24px; 
+    position: absolute;
+    bottom: 30%;
+    left: 0%;
+    color: rgb(54, 54, 132);
+    margin: auto;
+    background: white;
+    border: 2px solid #ff85c0;
+    z-index: 2;
+}
+
+.link {
+    font-family: 'Martel Light';
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1px;
+    display: block;
+    border: solid 2px #ff9eea;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    background: #7b76c8;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+}
+
